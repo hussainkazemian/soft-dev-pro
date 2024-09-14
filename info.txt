@@ -1,1 +1,11 @@
-hello
+Branching strategy for Software Developing Project
+A strong branching strategy is essential for effective collaboration and smooth code management in a software development project. Our team, considering our project size, team structure and release activities, proposes the following Git workflow to ensure efficiency, clarity and consistency in our developing process. 
+
+Branching Strategy: 
+Branch Types: 
+Main branch: (main)
+Purpose: This branch represents the stable, production-ready state of the code. 
+Rules: Direct comment to main are prohibited. Only merged changes form the develop branch are allowed. 
+Development branch (Develop)
+	Purpose: Serves as the integration branch for features and fixes. It’s used to aggregate changes before they are considered stable for release.
+	Rules:  All features’ branches and bug fix branches are merged into develop.  
